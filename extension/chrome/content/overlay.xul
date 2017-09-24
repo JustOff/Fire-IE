@@ -17,6 +17,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
   <textbox id="urlbar">
     <toolbarbutton id="fireie-urlbar-switch" insertbefore="urlbar-go-button"
     onclick="gFireIE.clickSwitchButton(event);"
+    onauxclick="event.preventDefault();"
     ondragover="gFireIE.onDragOver(event);"
     ondrop="gFireIE.onDrop(event);"
     tooltip="fireie-urlbar-switch-tooltip"
